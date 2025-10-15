@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CodeWithBiswa — Software Developer</title>
+  <meta name="description" content="CodeWithBiswa — portfolio of Biswa, software developer. Clean code, scalable apps, tutorials." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicons (simple) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home"><span class="brand-logo">&lt;/&gt;</span> <span class="brand-name">CodeWithBiswa</span></a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I’m <span class="accent">Biswa</span> — a Software Developer</h1>
+          <p>I build clean, scalable, and user-friendly software. I share projects, tutorials and practical coding tips at <strong>CodeWithBiswa</strong>.</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn outline">Get in Touch</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>1+</strong> Years Experience</li>
+            <li><strong>5+</strong> Projects</li>
+            <li><strong>Accepting</strong> Freelance</li>
+          </ul>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="code-card">
+            <pre><code>// Hello 👋
+function greet() {
+  return "CodeWithBiswa";
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About Me</h2>
+          <p>Passionate about writing readable code and building web apps that solve real problems.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-left">
+            <p>Hello — I’m <strong>Biswa</strong>. I enjoy building full-stack applications, solving algorithmic problems, and sharing knowledge. I completed MCA and currently work as a software developer focusing on web apps and backend systems.</p>
+            <ul class="skills-list">
+              <li><strong>Languages:</strong> Python, JavaScript</li>
+              <li><strong>Frontend:</strong> HTML, CSS, React</li>
+              <li><strong>Backend:</strong> Django, Node.js</li>
+              <li><strong>Databases:</strong> MySQL</li>
+              <li><strong>Tools:</strong> Git, VS Code</li>
+            </ul>
+          </div>
+
+          <div class="about-right">
+            <div class="profile-card">
+              <img src="mca.jpg" alt="Portrait" />
+              <div class="profile-meta">
+                <h2>Biswajit Sahoo</h2>
+                <p>Software Developer</p>
+                <a class="btn small" href="#contact">Hire Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected Projects</h2>
+          <p>Few hand-picked projects that showcase my skills and thinking.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <img src="esp32-traffic-light.jpg" alt="esp32-traffic-light project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>ESP32 Traffic Light</h3>
+              <p>Setting up a traffic light system using an ESP32 microcontroller is a great way to learn about GPIO control and timing. Below is a step-by-step guide to create a basic traffic light system.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <img src="hotel.png" alt="Hotel Management System Screenshots">
+            </div>
+            <div class="project-body">
+              <h3>Hotel Management System</h3>
+              <p>A Hotel management system is essential software that streamlines hotel operations, enhances guest satisfaction, and improves overall efficiency.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <img src="facedetection.jpg" alt="facedetection screenshot">
+            </div>
+            <div class="project-body">
+              <h3>Face Detection System</h3>
+              <p>A face detection system identifies and locates human faces in images or videos, serving as a foundation for applications like face recognition, emotion analysis, and security systems.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section blog">
+      <div class="container">
+        <div class="section-head">
+          <h2>Blog</h2>
+          <p>Short posts about projects, tips, and learning notes.</p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <h4>How I Built My Portfolio from Scratch</h4>
+            <p class="meta">Oct 2025 • 5 min read</p>
+            <p>Step-by-step explanation of tooling, deployment, and design choices.</p>
+            <a href="#" class="read-more">Read →</a>
+          </article>
+
+          <article class="blog-card">
+            <h4>Top 5 Python Tips for Beginners</h4>
+            <p class="meta">Aug 2025 • 4 min read</p>
+            <p>Practical tips to write cleaner and more Pythonic code.</p>
+            <a href="#" class="read-more">Read →</a>
+          </article>
+
+          <article class="blog-card">
+            <h4>Why Clean Code Matters</h4>
+            <p class="meta">Jun 2025 • 6 min read</p>
+            <p>Discusses long-term benefits and maintainability techniques.</p>
+            <a href="#" class="read-more">Read →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-head">
+          <h1>Contact Me</h1>
+          <p>Interested in working together? Send a message or reach me directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Let’s collaborate</h3>
+            <p>Email: <a href="mailto:biswajitsahoosr@gmail.com">biswajitsahoosr@gmail.com</a></p>
+            <p>Location: Hyderabad, India</p>
+            <div class="socials">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://www.youtube.com/@biswajitsahoosr" class="icon">YouTube</a>
+              <a href="https://www.linkedin.com/in/biswajit-sahoo-a81a632a3/">LinkedIn</a>
+              <a href="https://www.instagram.com/i__am_biswa/">instagram</a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" id="name" required placeholder="Your name">
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" id="email" required placeholder="your@gmail.com">
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" id="message" rows="5" required placeholder="Brief description..."></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <button type="reset" class="btn outline">Reset</button>
+            </div>
+
+            <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 <span id="year"></span> CodeWithBiswa — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
